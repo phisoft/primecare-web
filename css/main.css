@@ -79,7 +79,7 @@ h3{
     bottom:0;
     left:0;
     right:0;
-    background:rgba(0,0,0,0.5);
+   
   }
 
 /* Animation delays */
@@ -93,6 +93,7 @@ h3{
     animation-delay: 1s;
 }
 
+/*philosophy container*/
 .info-bg1{
     background-color: #43ADFF;
 }
@@ -102,14 +103,62 @@ h3{
 }
 
 .philosophy-text{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size:14px;
 }
 
+/* about us container */
 .site-title{
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
+
+.site-p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+/* history container */
+#treatment-container{
+    background: linear-gradient(rgba(52, 152, 219, 0.5), rgba(52, 152, 219, 0.5)), url(http://primecare-dentalclinic.com/home/wp-content/uploads/2017/02/prime-compressor.jpg);
+    background-attachment: fixed;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.carousel-text {
+    position: absolute;
+    top: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 100%;
+}
+
+.treatment-title{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.treatment-p{
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .hvrbox,
 .hvrbox * {
@@ -272,6 +321,7 @@ iframe{
     .home-bg{
         height:30vh;
         background-size: cover; 
+       
     }
 
     .home-bg-title{
