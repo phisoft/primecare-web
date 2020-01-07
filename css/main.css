@@ -239,8 +239,7 @@ h3{
 }
 
 .kepong-img{
-    height: 195px;
-    width: 255px;
+    height:31.5vh;
 }
 
 iframe{
@@ -266,6 +265,7 @@ iframe{
 
 .service-tab{
     font-size:20px;
+    padding:10px 85.7px;
     color:black;
 }
 
