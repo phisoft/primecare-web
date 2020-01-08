@@ -245,10 +245,34 @@
     </div>
   </div>
 
- 
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-2">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Kuala Lumpur</a>
+                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Selangor</a>
+                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Sabah</a>
+                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Penang</a>
+            </div>
+        </div>
+        <div class="col-10">
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <div class="form-group">
+                        // content
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+            </div>
+        </div>
+    </div>
+</div>
+  
 
   <!-- about us container -->
-  <div id="about-us" class="container-fluid mt-5  h-100">
+  <div id="about-us" class="container-fluid mt-5  h-100 p-0">
     <!-- <div class="text-center py-3">
       <h2 class="text-uppercase site-title"> About Us</h2>
     </div> -->
@@ -353,7 +377,7 @@
     <div class="tab-content" id="tabContent">
       <div class="tab-pane fade show active" id="beauty" role="tabpanel" aria-labelledby="beauty-tab">
         <div class="row no-gutters">
-          <div class="col-md-3">
+          <div class="col-md-3 service-content">
             <img src="https://previews.123rf.com/images/paylessimages/paylessimages1005/paylessimages100506756/6947278-facial-aesthetics.jpg" class="img-fluid service-img" alt="Facial Aesthetics">
             <div id="overlay">
               <p class="service-text">Facial aesthetics</p>
@@ -582,6 +606,35 @@
      doAnimations($animatingElems);
    });
  })(jQuery);
+
+ $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {  
+    var url = new String(e.target);
+    var pieces = url.split('#');
+
+    if (pieces[1] == 'profile'){
+        $('#profile').css('left','-'+$(window).width()+'px');    
+        var left = $('#profile').offset().left;
+        $("#profile").css({left:left}).animate({"left":"0px"}, "10");
+    }
+
+    if (pieces[1] == 'home'){
+        $('#home').css('right','-'+$(window).width()+'px');    
+        var right = $('#home').offset().right;
+        $("#home").css({right:right}).animate({"right":"0px"}, "10");
+    }
+
+    if (pieces[1] == 'messages'){
+        $('#messages').css('top','-'+$(window).height()+'px');            
+        var top = $('#messages').offset().top;
+        $("#messages").css({top:top}).animate({"top":"0px"}, "10");
+    }
+
+    if (pieces[1] == 'settings'){
+        $('#settings').css('bottom','-'+$(window).height()+'px');            
+        var bottom = $('#settings').offset().bottom;
+        $("#settings").css({bottom:bottom}).animate({"bottom":"0px"}, "10");
+    }
+})
  
  </script>
 </html>

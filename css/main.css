@@ -14,10 +14,6 @@ h3{
     height:13vh;
 }
 
-@media(min-width:992px){
-    
-}
-
 .navbar {
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
@@ -107,6 +103,13 @@ h3{
     font-size:14px;
 }
 
+/* branche container */
+
+  
+  
+  
+ 
+
 /* about us container */
 .site-title{
     font-weight: 600;
@@ -144,6 +147,7 @@ h3{
     height: 100%;
 }
 
+/* treatment container */
 .treatment-title{
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
@@ -267,7 +271,8 @@ iframe{
     font-size:20px;
     padding:10px 85.7px;
     color:black;
-}
+    
+}     
 
 .service-img{
     height:250px;
@@ -283,6 +288,13 @@ iframe{
     background-color: rgba(0, 0, 0, 0.6);
     color: #ffffff;
   }
+
+
+
+#overlay:hover{
+    background: rgba(95, 87, 90, 0.75);
+   
+}
 
 .service-text{
     position: relative;
@@ -303,7 +315,6 @@ iframe{
 
 .thead-bg{
     background-color: #43ADFF;
-    /* color: white; */
 }
 
 .branch-link:hover{
@@ -347,6 +358,22 @@ iframe{
 
     .about-container{
         padding-top:25px;
+    }
+
+    .site-title{
+        font-size: 15px;
+    }
+
+    .site-p{
+        font-size:12px;
+    }
+
+    .treatment-title{
+        font-size:15px;
+    }
+
+    .treatment-p{
+        font-size:12px;
     }
 
     .kuchai-lama-img{
