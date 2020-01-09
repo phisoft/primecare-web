@@ -104,7 +104,15 @@ h3{
 }
 
 /* branche container */
+.nav-link{
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 550;
+}
 
+.nav-link:hover{
+    color:#43ADFF;
+}
   
   
   
@@ -243,7 +251,7 @@ h3{
 }
 
 .kepong-img{
-    height:31.5vh;
+    height:25.5vh;
 }
 
 iframe{
