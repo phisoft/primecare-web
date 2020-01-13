@@ -1,3 +1,11 @@
+body {
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+}
+
+
+  
 .home-bg{
     width:100%;
     height:80vh;
@@ -103,20 +111,36 @@ h3{
     font-size:14px;
 }
 
-/* branche container */
-.nav-link{
-    color:black;
+/* branch container */
+.branch-link{
     font-family: 'Open Sans', sans-serif;
     font-weight: 550;
+    font-size:20px;
+    padding:10px 95.65px;
+    color:black;
+}
+
+.about-item{
+    height:400px;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.carousel-indicators {
+    bottom: -30px;
+}
+
+.visit-link{
+    color:black;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .nav-link:hover{
     color:#43ADFF;
 }
-  
-  
-  
- 
+
 
 /* about us container */
 .site-title{
@@ -133,6 +157,7 @@ h3{
 #treatment-container{
     background: linear-gradient(rgba(52, 152, 219, 0.5), rgba(52, 152, 219, 0.5)), url(http://primecare-dentalclinic.com/home/wp-content/uploads/2017/02/prime-compressor.jpg);
     background-attachment: fixed;
+    padding: 100px;
 }
 
 .full-width {
@@ -154,6 +179,7 @@ h3{
     align-items: center;
     height: 100%;
 }
+
 
 /* treatment container */
 .treatment-title{
@@ -251,7 +277,7 @@ h3{
 }
 
 .kepong-img{
-    height:25.5vh;
+    height:33.2vh;
 }
 
 iframe{
@@ -276,8 +302,10 @@ iframe{
 }
 
 .service-tab{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 550;
     font-size:20px;
-    padding:10px 85.7px;
+    padding: 10px 50px;
     color:black;
     
 }     
@@ -329,6 +357,10 @@ iframe{
     text-decoration: none;
 }
 
+.visit-link:hover{
+    text-decoration: none;
+}
+
 
 @media(max-width:768px){
     .company-logo{
@@ -360,6 +392,10 @@ iframe{
         padding-top:50px;
     }
 
+    .carousel-indicators{
+        bottom: 0;
+    }
+
     .philosophy-text{
         font-size:12px;
     }
@@ -370,14 +406,33 @@ iframe{
 
     .site-title{
         font-size: 15px;
+       
     }
 
     .site-p{
         font-size:12px;
     }
 
+    .branch-link{
+        font-size: 15px;
+       
+    }
+
+    .service-tab{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 550;
+        font-size:15px;
+        /* padding:10px 79.65px; */
+        color:black;
+        
+    }     
+
     .treatment-title{
         font-size:15px;
+    }
+
+    #treatment-container{
+        padding:30px;
     }
 
     .treatment-p{
