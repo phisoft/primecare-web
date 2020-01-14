@@ -1,10 +1,15 @@
 body {
     min-height: 100vh;
-    position: relative;
-    margin: 0;
+    padding-top: 90px;
 }
 
+.flex-fill{
+    flex:1 1 auto;
+}
 
+.bg-theme{
+    background-color: rgb(51, 132, 194);
+}
   
 .home-bg{
     width:100%;
@@ -51,9 +56,7 @@ h3{
  
 }
 
-#home-bg-carousel{
-    padding-top:80px;
-}
+
 
 .home-bg-title{
     font-size:25px;
@@ -361,6 +364,13 @@ iframe{
     text-decoration: none;
 }
 
+/* doctor page */
+.btn-profile{
+    background-color: rgb(51, 132, 194);
+    color:white;
+    text-transform: uppercase;
+    font-size: 13px;
+}
 
 @media(max-width:768px){
     .company-logo{
