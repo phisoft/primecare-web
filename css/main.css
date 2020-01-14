@@ -372,6 +372,12 @@ iframe{
     font-size: 13px;
 }
 
+.doctor-title{
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
 @media(max-width:768px){
     .company-logo{
         height:9vh;
@@ -462,6 +468,13 @@ iframe{
     .kepong-img{
         height:23vh;
         padding-top:10px;
+    }
+
+    /* doctor page */
+    .doctor-title{
+        font-size: 30px!important;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
     }
    
     
