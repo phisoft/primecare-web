@@ -182,17 +182,20 @@ h3{
 
 /* treatment container */
 .treatment-title{
-    font-weight: 600;
-    font-size: 16px;
-    
+  font-weight: 200;
+  font-size: 20px;
 }
 
 .treatment-p{
-    font-size:15px;
-    padding-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  font-size:16px;
+  font-weight: 200;
+}
+
+.branches-info {
+  font-family: 'Caveat', cursive;
+  font-size: 26px;
+  color: #666;
+  margin-bottom: 80px;
 }
 
 
@@ -298,7 +301,6 @@ iframe{
 }
 
 .service-tab{
-    font-weight: 550;
     font-size:20px;
     padding: 10px 50px;
     color:black;
@@ -364,8 +366,17 @@ iframe{
 }
 
 .doctor-title{
-    font-weight: 600;
-   
+  font-weight: 600;
+}
+
+.about-container {
+  background-color: #005384;
+  color: white;
+  font-weight: 300;
+}
+
+.about-info {
+  padding: 5em;
 }
 
 @media(max-width:768px){
