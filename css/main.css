@@ -24,7 +24,7 @@ h3{
 }
 
 .company-logo{
-    height:13vh;
+   width: 200px;
 }
 
 .navbar {
@@ -39,7 +39,7 @@ h3{
     padding-top: 0;
     padding-bottom: 0;
     height: 50px;
-    line-height: 85px;
+    line-height: 50px;
 }
 
 .nav-text{
@@ -47,8 +47,7 @@ h3{
     padding-left: 20px !important;
     padding-right:20px !important;
     text-transform: uppercase;
-    font-weight: 600;
-    font-family: 'Montserrat', sans-serif;  
+    font-weight: 400;
 }
 
 .nav-text:hover{
@@ -59,16 +58,16 @@ h3{
 
 
 .home-bg-title{
-    font-size:25px;
-    font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
+    font-size:36px;
+    font-weight: 400;
 }
 
 .home-bg-p{
-    font-size:18px;
-    font-family: 'Open Sans', sans-serif;
-  
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+    font-weight: 400;
 }
+
 .carousel-caption{
     transform: translateY(-50%);
     bottom: 0;
@@ -103,20 +102,20 @@ h3{
 /*philosophy container*/
 .info-bg1{
     background-color: #43ADFF;
+    background-color: #5A8636;
 }
 
 .info-bg2{
     background-color: #004283;
+    background-color: #2270bd;
 }
 
 .philosophy-text{
-    font-family: 'Montserrat', sans-serif;
     font-size:14px;
 }
 
 /* branch container */
 .branch-link{
-    font-family: 'Open Sans', sans-serif;
     font-weight: 550;
     font-size:20px;
     padding:10px 95.65px;
@@ -137,7 +136,6 @@ h3{
 
 .visit-link{
     color:black;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .nav-link:hover{
@@ -148,11 +146,9 @@ h3{
 /* about us container */
 .site-title{
     font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .site-p{
-    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
 }
 
@@ -187,13 +183,11 @@ h3{
 /* treatment container */
 .treatment-title{
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     
 }
 
 .treatment-p{
-    font-family: 'Open Sans', sans-serif;
     font-size:15px;
     padding-top: 10px;
     display: flex;
@@ -280,7 +274,7 @@ h3{
 }
 
 .kepong-img{
-    height:33.2vh;
+    height:190px;
 }
 
 iframe{
@@ -301,11 +295,9 @@ iframe{
 .footer-copyright .footer-link{
     color:white;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .service-tab{
-    font-family: 'Open Sans', sans-serif;
     font-weight: 550;
     font-size:20px;
     padding: 10px 50px;
@@ -342,7 +334,6 @@ iframe{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 25px;
-    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
 }
 
@@ -374,7 +365,6 @@ iframe{
 
 .doctor-title{
     font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
    
 }
 
@@ -384,7 +374,6 @@ iframe{
     }
 
     .home-bg{
-        height:30vh;
         background-size: cover; 
        
     }
@@ -432,7 +421,6 @@ iframe{
     }
 
     .service-tab{
-        font-family: 'Open Sans', sans-serif;
         font-weight: 550;
         font-size:15px;
         /* padding:10px 79.65px; */
@@ -453,17 +441,17 @@ iframe{
     }
 
     .kuchai-lama-img{
-        height:20vh;
+        height:120px;
         padding-top:10px;
     }
 
     .pj-img{
-        height:20vh;
+        height:120px;
         padding-top:10px;
     }
 
     .kepong-img{
-        height:23vh;
+        height:120px;
         padding-top:10px;
     }
 
@@ -471,7 +459,6 @@ iframe{
     .doctor-title{
         font-size: 30px!important;
         font-weight: 600;
-        font-family: 'Open Sans', sans-serif;
     }
    
     
