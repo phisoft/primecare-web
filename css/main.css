@@ -389,6 +389,11 @@ iframe{
 
 
 @media(max-width:768px){
+
+  .about-info {
+    padding: 1em;
+  }
+
     .company-logo{
         height:9vh;
     }
