@@ -33,6 +33,7 @@ h3{
     font-size:20px;
 }
 
+
 .company-logo{
    width: 200px;
 }
@@ -105,6 +106,18 @@ h3{
 }
 .carousel-caption p {
     animation-delay: 1s;
+}
+
+/* Doctors page */
+
+.doc-box {
+    width: 350px;
+    height: 540px;
+}
+
+.doc-img {
+    width: auto;
+    height: 348px;
 }
 
 /*philosophy container*/
