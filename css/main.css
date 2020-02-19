@@ -1,6 +1,6 @@
 body {
     min-height: 100vh;
-    padding-top: 90px;
+    padding-top: 77px;
 }
 
 .flex-fill{
@@ -8,7 +8,8 @@ body {
 }
 
 .bg-theme{
-    background-color: rgb(51, 132, 194);
+    /* background-color: rgb(51, 132, 194); */
+    background-color: #004283;
 }
   
 .home-bg1{
@@ -16,7 +17,7 @@ body {
     height:80vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/PrimeCare/ban1.jpg);
+    background-image: url(../img/PrimeCare/ban1.jpg);
     background-position: center center;
 }
 
@@ -25,7 +26,7 @@ body {
     height:80vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/PrimeCare/ban2.jpg);
+    background-image: url(../img/PrimeCare/ban2.jpg);
     background-position: center center;
 }
 
@@ -78,8 +79,54 @@ body {
     height: 400px;
 }
 
-h3{
-    font-size:20px;
+/* Branch Container style */
+.br-cont {
+    background-color: aliceblue;
+    max-width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.br-cont2 {
+    max-width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.br-pad {
+    max-width: 30%;
+}
+
+.br-pad2 {
+    padding-top: 100px;
+}
+
+.rpad {
+    padding-left: 100px;
+}
+
+tr {
+    width: 100%;
+}
+
+td {
+    padding-bottom: 20px;
+    font-size: 14pt;
+    text-align: left;
+    vertical-align: top;
+}
+
+h2 {
+    color: rgb(51, 132, 194);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
 }
 
 
@@ -116,20 +163,23 @@ h3{
 }
 
 .home-bg-title{
-    font-size:36px;
-    font-weight: 400;
+    font-size:40px;
+    font-weight: 600;
+    color: #004283;
 }
 
 .home-bg-p {
     font-family: 'Caveat', cursive;
     font-size: 32px;
     font-weight: 400;
+    color: #444;
 }
 
 .carousel-caption{
-    transform: translateY(-50%);
+    transform: translateY(10%);
     bottom: 0;
     top: 55%;
+    text-align: left;
 }
 
 .carousel .carousel-arrow { visibility: hidden; }
@@ -145,6 +195,52 @@ h3{
     right:0;
    
   }
+
+   /* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: #444;
+    padding: 18px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #004283;}
+
+  /* Change font color of dropdown links on hover */
+  .dropdown-content a:hover {color: white;}
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the font color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {color: #004283!important;}
 
 /* Animation delays */
 .carousel-caption h3:first-child {
@@ -171,13 +267,13 @@ h3{
 
 /*philosophy container*/
 .info-bg1{
-    background-color: #43ADFF;
-    background-color: #5A8636;
+    background-color:  rgb(77, 171, 214);
+    /*background-color: #5A8636;*/
 }
 
 .info-bg2{
     background-color: #004283;
-    background-color: #2270bd;
+    /*background-color: #2270bd; */
 }
 
 .philosophy-text{
@@ -224,7 +320,8 @@ h3{
 
 /* history container */
 #treatment-container{
-    background: linear-gradient(rgba(52, 152, 219, 0.5), rgba(52, 152, 219, 0.5)), url(http://primecare-dentalclinic.com/home/wp-content/uploads/2017/02/prime-compressor.jpg);
+    /* background: linear-gradient(rgba(52, 152, 219, 0.5), rgba(52, 152, 219, 0.5)), url(http://primecare-dentalclinic.com/home/wp-content/uploads/2017/02/prime-compressor.jpg); */
+    background-color: rgb(77, 171, 214);
     background-attachment: fixed;
     padding: 100px;
 }
@@ -254,11 +351,14 @@ h3{
 .treatment-title{
   font-weight: 200;
   font-size: 20px;
+  font-weight: 400;
 }
 
 .treatment-p{
   font-size:16px;
   font-weight: 200;
+  font-weight: 400;
+ 
 }
 
 .branches-info {
@@ -367,7 +467,6 @@ h3{
     font-size:20px;
     padding: 10px 50px;
     color:black;
-    
 }     
 
 .service-img{
@@ -409,6 +508,11 @@ h3{
     padding-bottom: 40px;
 }
 
+.thd-1 {
+    background-color: #004283;
+    color: white;
+}
+
 .thead-bg{
     background-color: #43ADFF;
 }
@@ -434,7 +538,8 @@ h3{
 }
 
 .about-container {
-  background-color: #005384;
+  /*background-color: #005384;*/
+  background-color: #004283;
   color: white;
   font-weight: 300;
 }
@@ -442,6 +547,7 @@ h3{
 .about-info {
   padding: 5em;
 }
+
 
 
 @media(max-width:768px){
