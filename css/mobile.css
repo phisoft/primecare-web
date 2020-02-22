@@ -1,4 +1,103 @@
-body {
+@media screen and (max-width: 40.0rem) {
+
+/*
+    .company-logo{
+        height:9vh;
+    }
+
+    .home-bg{
+        background-size: cover; 
+       
+    }
+
+    .home-bg-title{
+        font-size: 15px;
+    }
+
+    .home-bg-p{
+        font-size:12px;
+    }
+
+    .caption2{
+        top: 50% !important;
+    }
+
+    .carousel-arrow{
+        padding-top:50px;
+    }
+
+    .carousel-indicators{
+        bottom: 0;
+    }
+
+    .philosophy-text{
+        font-size:12px;
+    }
+
+    .about-container{
+        padding-top:25px;
+    }
+
+    .site-title{
+        font-size: 15px;
+       
+    }
+
+    .site-p{
+        font-size:12px;
+    }
+
+    .branch-link{
+        font-size: 15px;
+       
+    }
+
+    .service-tab{
+        font-weight: 550;
+        font-size:15px;
+        /* padding:10px 79.65px; */
+       /* color: black; 
+        
+    }     */ /*
+
+    .treatment-title{
+        font-size:15px;
+    }
+
+    #treatment-container{
+        padding:30px;
+    }
+
+    .treatment-p{
+        font-size:12px;
+    }
+
+    .kuchai-lama-img{
+        height:120px;
+        padding-top:10px;
+    }
+
+    .pj-img{
+        height:120px;
+        padding-top:10px;
+    }
+
+    .kepong-img{
+        height:120px;
+        padding-top:10px;
+    }
+
+    /* doctor page */
+  /*  .doctor-title{
+        font-size: 30px!important;
+        font-weight: 600;
+    }
+ */
+
+
+ /* -------------------------------------------------- */
+
+ body {
     min-height: 100vh;
     padding-top: 77px;
 }
@@ -83,22 +182,22 @@ body {
 .br-cont {
     background-color: aliceblue;
     max-width: 100%;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 .br-cont2 {
     max-width: 100%;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 .br-pad {
-    max-width: 30%;
+    max-width: 20%;
 }
 
 .br-pad2 {
@@ -106,7 +205,7 @@ body {
 }
 
 .rpad {
-    padding-left: 100px;
+    padding-left: 20px;
 }
 
 tr {
@@ -126,7 +225,7 @@ h2 {
 
 table {
     border-collapse: collapse;
-    width: 100%;
+    max-width: 40.0rem;
 }
 
 
@@ -162,6 +261,19 @@ table {
  
 }
 
+.nav-pad {
+    padding-left: 50px;
+}
+
+.nav-pad2 {
+    padding-left: 100px;
+}
+
+.logo-wid {
+    max-width: 61%;
+}
+
+
 .home-bg-title{
     font-size:40px;
     font-weight: 600;
@@ -195,6 +307,7 @@ table {
     right:0;
    
   }
+  
 
    /* Dropdown Button */
 .dropbtn {
@@ -552,106 +665,9 @@ table {
   padding: 5em;
 }
 
-<<<<<<< HEAD
 
 
-@media(max-width:768px){
 
-  .about-info {
-    padding: 1em;
-  }
 
-    .company-logo{
-        height:9vh;
-    }
 
-    .home-bg{
-        background-size: cover; 
-       
-    }
-
-    .home-bg-title{
-        font-size: 15px;
-    }
-
-    .home-bg-p{
-        font-size:12px;
-    }
-
-    .caption2{
-        top: 50% !important;
-    }
-
-    .carousel-arrow{
-        padding-top:50px;
-    }
-
-    .carousel-indicators{
-        bottom: 0;
-    }
-
-    .philosophy-text{
-        font-size:12px;
-    }
-
-    .about-container{
-        padding-top:25px;
-    }
-
-    .site-title{
-        font-size: 15px;
-       
-    }
-
-    .site-p{
-        font-size:12px;
-    }
-
-    .branch-link{
-        font-size: 15px;
-       
-    }
-
-    .service-tab{
-        font-weight: 550;
-        font-size:15px;
-        /* padding:10px 79.65px; */
-        color:black;
-        
-    }     
-
-    .treatment-title{
-        font-size:15px;
-    }
-
-    #treatment-container{
-        padding:30px;
-    }
-
-    .treatment-p{
-        font-size:12px;
-    }
-
-    .kuchai-lama-img{
-        height:120px;
-        padding-top:10px;
-    }
-
-    .pj-img{
-        height:120px;
-        padding-top:10px;
-    }
-
-    .kepong-img{
-        height:120px;
-        padding-top:10px;
-    }
-
-    /* doctor page */
-    .doctor-title{
-        font-size: 30px!important;
-        font-weight: 600;
-    }
-   
-    
 }
