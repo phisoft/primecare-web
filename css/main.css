@@ -1,12 +1,13 @@
 body {
     min-height: 100vh;
     padding-top: 77px;
+    font-family: "aktiv-grotesk",sans-serif;
 }
 
 .ser-text {
     color: #444;
     text-align: left;
-    font-size: 17pt;
+    font-size: 14pt;
 }
 
 .flex-fill{
@@ -15,7 +16,8 @@ body {
 
 .bg-theme{
     /* background-color: rgb(51, 132, 194); */
-    background-color: #004283;
+    /* background-color: #004283; */
+    background-color: rgb(77, 171, 214);
 }
   
 .home-bg1{
@@ -68,6 +70,7 @@ body {
     position: relative;
     width: 100%;
     overflow: hidden;
+    padding-top: 40px;
 }
 
 .abt-it {
@@ -317,6 +320,7 @@ table {
 .philosophy-text{
     font-size:14px;
     color: #444;
+    font-family: font-family: "aktiv-grotesk",sans-serif;
 }
 
 /* branch container */
@@ -405,16 +409,17 @@ table {
 
 /* treatment container */
 .treatment-title{
-  font-weight: 200;
-  font-size: 20px;
-  font-weight: 400;
+  font-weight: 100;
+  font-size: 19px;
+  
+  font-family: "aktiv-grotesk",sans-serif;
 }
 
 .treatment-p{
   font-size:16px;
   font-weight: 200;
-  font-weight: 400;
- 
+  
+  font-family: "aktiv-grotesk",sans-serif;
 }
 
 .branches-info {
@@ -570,7 +575,7 @@ table {
 }
 
 .thd-1 {
-    background-color: #004283;
+    background-color: rgb(136, 203, 234);
     color: white;
 }
 
