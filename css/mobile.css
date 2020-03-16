@@ -97,7 +97,7 @@
 
  /* -------------------------------------------------- */
 
- body {
+body {
     min-height: 100vh;
     padding-top: 77px;
 }
@@ -106,12 +106,12 @@
     flex:1 1 auto;
 }
 
-.bg-theme{
+.bg-theme {
     /* background-color: rgb(51, 132, 194); */
-    background-color: #004283;
+    background-color: rgb(77, 171, 214) ;
 }
-  
-.home-bg1{
+
+.home-bg1 {
     width:100%;
     height:440px;
     background-size: cover;
@@ -708,6 +708,90 @@ table {
   padding: 1em;
 }
 
+.spotlight.accent1 {
+    background-color: #51CCA8;
+}
+.spotlight {
+    padding: 0;
+    text-align: center;
+}
+.spotlight {
+    padding: 5.5rem 0;
+}
+.spotlight {
+    padding: 7rem 0;
+    position: relative;
+}
+
+article {
+    display: block;
+}
+
+.spotlight > .inner {
+    display: block;
+    max-width: none;
+    width: 100%;
+}
+
+.spotlight.odd .image {
+    right: 0;
+}
+.spotlight .image {
+    display: block;
+    height: 40vh;
+    min-height: 20rem;
+    width: 100%;
+    position: relative;
+}
+.spotlight .image {
+    border-radius: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 45%;
+}
+.image {
+    border-radius: 4px;
+    border: 0;
+    display: inline-block;
+    position: relative;
+}
+
+.spotlight .image img {
+    -moz-object-fit: cover;
+    -webkit-object-fit: cover;
+    -ms-object-fit: cover;
+    object-fit: cover;
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.image[data-position="top right"] img {
+    -moz-object-position: top right;
+    -webkit-object-position: top right;
+    -ms-object-position: top right;
+    object-position: top right;
+}
+.image[data-position] img {
+    -moz-object-fit: cover;
+    -webkit-object-fit: cover;
+    -ms-object-fit: cover;
+    object-fit: cover;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.image img {
+    border-radius: 4px;
+    display: block;
+    max-width: 100%;
+}
 
 
 
