@@ -9,6 +9,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main2.css">
     <link rel="stylesheet" href="css/mobile.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
@@ -16,70 +17,92 @@
     <script src="https://kit.fontawesome.com/776d7cc185.js" crossorigin="anonymous"></script>
 </head>
 <body class="d-flex flex-column">
-  <header>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-white fixed-top">
-      <div class="container-fluid">
-        <div class="row" style="flex-grow:1;">
-            <div class="col-md-4 col-9">
-                <a href="index.html" class="navbar-brand">
-                <img class="company-logo"src="img/primecare.png" alt="logo">
+    <header class="site-header site-header--menu-left site-header--absolute site-header--sticky">
+        <nav class="navbar site-navbar bg-white fixed-top">
+          <div class="container">
+              <!-- Brand Logo-->
+              <div>
+                <a href="index.html">
+                  <img src="img/primecare.png" alt="" width="200px">
                 </a>
-            </div>
-
-         
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-                <span class="navbar-toggler-icon">
-                    <i class="fas fa-bars" style="color:#2d6eaf; font-size:28px;"></i>
-                </span>
-            </button>
-         
-            <div class="col-md-8">
-            <div class="collapse navbar-collapse" id="navbarMenu">
-                <ul class="navbar-nav">
+              </div>
+              <div class="menu-block-wrapper">
+                <div class="menu-overlay"></div>
+                <nav class="menu-block" id="append-menu-header">
+                  <div class="mobile-menu-head">
+                    <div class="go-back">
+                      <i class="fa fa-angle-left"></i>
+                    </div>
+                    <div class="current-menu-title"></div>
+                    <div class="mobile-menu-close">&times;</div>
+                  </div>
+                  <ul class="site-menu-main">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link nav-text">Home</a>
+                      <a href="doctors.html" class="nav-link-item">Our Dentists</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="doctors.html" class="nav-link nav-text">Our Dentists</a>
-                    </li>
-                    <li class="nav-item">
-                    <!-- <a href="branch.html" class="nav-link nav-text">Branches</a> -->
-                    <div class="dropdown drop-pad">
-                        <a href="branch.html" class="dropbtn nav-text" style="text-decoration: none;">Our Branch</a>
-                        <!-- <button class="dropbtn">OUR BRANCH</button> -->
-                        <div class="dropdown-content">
-                          <a href="branch.html#pj">Petaling Jaya</a>
-                          <a href="branch.html#sj">Subang Jaya</a>
-                          <a href="branch.html#sh">Shah Alam</a>
-                          <a href="branch.html#eq">Equine</a>
-                          <a href="branch.html#sl">Selayang</a>
-                          <a href="branch.html#ch">Cheras</a>
-                          <a href="branch.html#kb">Kepong Baru</a>
-                          <a href="branch.html#kp">Kepong Prima</a>
-                          <a href="branch.html#kl">Kuchai Lama</a>
-                          <a href="branch.html#sd">Serdang</a>
-                          <a href="branch.html#mc">Mahkota Cheras</a>
-                          <a href="branch.html#sb">Sri Bintang</a>
-                          <a href="branch.html#jp">Jelutong Penang</a>
-                          <a href="branch.html#sp">Signature</a>
-                          <a href="branch.html#lm">L&M</a>
-                          <a href="branch.html#pd">Phi Dental Sabah</a>
+                    <li class="nav-item nav-item-has-children has-megamenu">
+                      <a href="#" class="nav-link-item drop-trigger">Locations</a>
+                      <div class="sub-menu megamenu  megadropdown-center  d-lg-flex align-items-center" id="submenu-100">
+                        <div class="col-lg-4 d-none d-lg-block">
+                          <div class="mega-menu-image">
+                            <img class="w-100" src="https://finestdevs.com/demos/whiter-html/image/landing-2/people-3.png" alt="image">
+                          </div>
                         </div>
-                      </div> 
+                        <ul class="col-lg-8 col-12 row-lg list-unstyled py-lg-7">
+                          <li class="col-lg-3">
+                            <div class="single-dropdown-block">
+                              <a href="branch.html#pj" class="mega-drop-menu-item sub-menu--item">Petaling Jaya</a>
+                              <a href="branch.html#sj" class="mega-drop-menu-item sub-menu--item">Subang Jaya</a>
+                              <a href="branch.html#sh" class="mega-drop-menu-item sub-menu--item">Shah Alam</a>
+                              <a href="branch.html#eq" class="mega-drop-menu-item sub-menu--item">Equine</a>
+                            </div>
+                          </li>
+                          <li class="col-lg-3">
+                            <div class="single-dropdown-block">
+                              <a href="branch.html#sl" class="mega-drop-menu-item sub-menu--item">Selayang</a>
+                              <a href="branch.html#ch" class="mega-drop-menu-item sub-menu--item">Cheras</a>
+                              <a href="branch.html#kb" class="mega-drop-menu-item sub-menu--item">Kepong Baru</a>
+                              <a href="branch.html#kp" class="mega-drop-menu-item sub-menu--item">Kepong Prima</a>
+                            </div>
+                          </li>
+                          <li class="col-lg-3">
+                            <div class="single-dropdown-block">
+                              <a href="branch.html#kl" class="mega-drop-menu-item sub-menu--item">Kuchai Lama</a>
+                              <a href="branch.html#sd" class="mega-drop-menu-item sub-menu--item">Serdang</a>
+                              <a href="branch.html#mc" class="mega-drop-menu-item sub-menu--item">Mahkota Cheras</a>
+                              <a href="branch.html#sb" class="mega-drop-menu-item sub-menu--item">Sri Bintang</a>
+                            </div>
+                          </li>
+                          <li class="col-lg-3">
+                            <div class="single-dropdown-block">
+                              <a href="branch.html#jp" class="mega-drop-menu-item sub-menu--item">Jelutong Penang</a>
+                              <a href="branch.html#sp" class="mega-drop-menu-item sub-menu--item">Signature</a>
+                              <a href="branch.html#lm" class="mega-drop-menu-item sub-menu--item">L&M</a>
+                              <a href="branch.html#pd" class="mega-drop-menu-item sub-menu--item">Phi Dental Sabah</a>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
                     </li>
                     <li class="nav-item">
-                    <a href="about-us.html" class="nav-link nav-text">About Us</a>
+                      <a href="about-us.html" class="nav-link-item">About Us</a>
                     </li>
-                    <li class="nav-item">
-                    <a href="contact-us.html" class="nav-link nav-text">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-            </div>
-       </div>
-    </div>
-    </nav>
-  </header>
+                  </ul>
+                </nav>
+              </div>
+              <div class="header-btns  header-btn-l2 ms-auto d-none d-xs-inline-flex align-items-center">
+                <a class="btn btn-style-03 contact-btn focus-reset" href="contact-us.html">
+                  Contact Us
+                </a>
+              </div>
+              <!-- mobile menu trigger -->
+              <div class="mobile-menu-trigger">
+                <span></span>
+              </div>
+              <!--/.Mobile Menu Hamburger Ends-->
+          </div>
+        </nav>
+      </header>
    
     <!-- <div class="container-fluid p-4  bg-theme">
         <h2 class=" pl-3 text-white doctor-title" style="padding-right: 30%;"> Meet our Dentists</h2>
