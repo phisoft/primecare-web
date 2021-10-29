@@ -103,6 +103,52 @@
   .site-header .mobile-menu-trigger span:after {
     top: 6px;
   }
+  .site-header .menu-block .mobile-menu-head {
+    display: flex;
+    height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 501;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: #ffffff;
+    top: 0;
+  }
+  .site-header .menu-block .mobile-menu-head .go-back {
+    height: 50px;
+    width: 50px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+    font-size: 16px;
+    display: none;
+  }
+  .site-header .menu-block .mobile-menu-head.active .go-back {
+    display: block;
+  }
+  .site-header .menu-block .mobile-menu-head .current-menu-title {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+    visibility: hidden;
+  }
+  .site-header .menu-block .mobile-menu-head.active .current-menu-title {
+    visibility: visible;
+  }
+  .site-header .menu-block .mobile-menu-head .mobile-menu-close {
+    height: 50px;
+    width: 50px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+    font-size: 25px;
+  }
   .site-header .item-right {
     align-items: center;
   }
@@ -575,7 +621,7 @@ display: none;
     z-index: 99;
     pointer-events: visible;
     border-radius: 0px 0px 15px 15px;
-    border-top: 3px solid #1787FC;
+    border-top: 3px solid #43ade1;
   }
 }
 
@@ -630,7 +676,7 @@ border-radius: 5px;
 font-weight: 600;
 border-radius: 10px;
 font-size: 17px;
-background: #2d6eaf;
+background: #213053;
 color: #fff;
 min-width: 130px;
 height: 60px;
@@ -652,7 +698,7 @@ position: absolute;
 top: 0%;
 left: 0%;
 border-radius: 10px;
-background: #213053;
+background: #43ade1;
 transition: all .5s;
 z-index: -1;
 opacity: 0;
