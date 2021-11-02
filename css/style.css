@@ -797,3 +797,40 @@ align-items: center;
 justify-content: center;
 transition: all .4s ease-in-out;
 }
+
+.content-area-image {
+  margin-bottom: 45px;
+  margin-right: 45px;
+}
+
+@media (min-width: 992px) {
+  .content-area-image {
+    margin-bottom: 0;
+  }
+}
+
+
+/*Image Hover style 01*/
+.image-hover-style-01 {
+  border-radius: 10px;
+}
+
+.image-hover-style-01 img {
+  transition: all 0.4s ease-in-out;
+}
+
+.image-hover-style-01 img:hover {
+  transform: scale(1.2);
+  transition: all 1s ease-out;
+  filter: brightness(0.7);
+}
+
+.content-3-l9-image {
+  margin-bottom: 45px;
+}
+
+@media (min-width: 992px) {
+  .content-3-l9-image {
+    margin-bottom: 0;
+  }
+}

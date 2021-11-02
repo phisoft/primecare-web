@@ -38,7 +38,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../img/PrimeCare/ban7.jpg);
-    background-position: center center;
+    background-position: right center;
 }
 
 .map-sty {
@@ -658,11 +658,16 @@ table {
   font-weight: 600;
 }
 
+.service-container {
+  /*background-color: #005384;*/
+  /* background-color: #04B431; */
+  background-color: #F0F8FF;
+}
+
 .about-container {
   /*background-color: #005384;*/
   /* background-color: #04B431; */
-  background-color: #e8ae68;
-  color: white;
+  color: black;
   font-weight: 300;
 }
 
@@ -811,29 +816,15 @@ z-index: 1;
 /* service */
 
 .service .thumbnail{
-    border: none;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(168, 157, 157, 0.31);
-            box-shadow: 0px 0px 5px 0px rgba(168, 157, 157, 0.31);
+  border: 1px solid rgba(223, 223, 223, 0.7);
     padding: 35px 20px;
     margin-bottom: 30px;
+    border-radius: 15px;
+    transition: all 0.4s ease-in-out;
+    background-color: white;
   }
-  
 
-.service .thumbnail:hover{
-      -webkit-box-shadow: 2px 5.66px 20px 0px rgba(136, 136, 136, 0.2);
-              box-shadow: 2px 5.66px 20px 0px rgba(136, 136, 136, 0.2);
-    }
 
-.service .thumbnail:hover .service__title{
-        color: #00aafe;
-      }
-
-.service .thumbnail:hover .material-icons{
-        background-color: rgb( 0, 170, 254 );
-        -webkit-box-shadow: 0px 0px 15px 0px rgb( 0, 170, 254 );
-                box-shadow: 0px 0px 15px 0px rgb( 0, 170, 254 );
-        color: #fff;
-      }
 
 .service__title{
     font-size: 22px;
@@ -872,7 +863,7 @@ z-index: 1;
   /* page-section */
 
   .page-section{
-    padding-top: 100px;
+    padding-top: 25vh;
     font-family: 'Open Sans',Arial,sans-serif;
     letter-spacing: 0.011111111111111112rem;
     line-height: 1.7777777777778;
@@ -1014,10 +1005,13 @@ z-index: 1;
     -webkit-clip-path: polygon(0 32%, 100% 10%, 100% 100%, 0% 100%);
             clip-path: polygon(0 32%, 100% 10%, 100% 100%, 0% 100%);
    /* background: url("../img/contact-us-background.png") no-repeat; */
-    background: url("../img/den-bg.jpg") no-repeat;
-    background-position: top;
-    height: 430px;
+    background: url("../img/den-bg3.jpg") no-repeat;
+    height: 80vh;
     position: relative;
+     /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
   }
 
@@ -1038,6 +1032,11 @@ z-index: 1;
       .contact--bg{
         -webkit-clip-path: polygon(0 32%, 100% 28%, 100% 100%, 0% 100%);
                 clip-path: polygon(0 32%, 100% 28%, 100% 100%, 0% 100%);
+                background: url("../img/den-bg3.jpg") no-repeat;
+                background-position: bottom;
+                height: 430px;
+                position: relative;
+                background-size: 100%;
       }
     }
 
@@ -1099,8 +1098,12 @@ z-index: 1;
             -webkit-clip-path: polygon(0 0, 100% 0, 100% 68%, 0 100%);
                     clip-path: polygon(0 0, 100% 0, 100% 68%, 0 100%);
             background: url("../img/dentalico.jpg") no-repeat;
-            height: 440px;
+            height: 90vh;
             position: relative;
+             /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: top;
+            background-repeat: no-repeat;
             background-size: cover;
           }
 
