@@ -25,11 +25,11 @@ body {
   
 .home-bg1{
     width:100%;
-    height:80vh;
+    height:100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../img/PrimeCare/ban5.jpg);
-    background-position: center center;
+    background-position: right center;
 }
 
 .home-bg2{
@@ -38,7 +38,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../img/PrimeCare/ban7.jpg);
-    background-position: center center;
+    background-position: right center;
 }
 
 .map-sty {
@@ -184,24 +184,68 @@ table {
  
 }
 
-.home-bg-title{
-    font-size:40px;
-    font-weight: 400;
-    color: #004283;
-    font-family: 'Open Sans',Arial,sans-serif;
-}
 
-.home-bg-p {
-    font-family: 'Open Sans',Arial,sans-serif;
-    font-size: 27px;
-    font-weight: 300;
-    color: #444;
-}
+.home-bg-title {
+    color: #213053;
+    font-size: 34px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -1px;
+    line-height: 40px;
+    margin-bottom: 35px;
+    margin-top: 0;
+  }
+  
+  @media (min-width: 576px) {
+    .home-bg-title {
+      font-size: 40px;
+      line-height: 46px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .home-bg-title {
+      font-size: 48px;
+      line-height: 54px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .home-bg-title {
+      font-size: 70px;
+      line-height: 76px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .home-bg-title {
+      font-size: 80px;
+      line-height: 86px;
+    }
+  }
+  
+  .home-bg-p {
+    opacity: 0.7;
+    color: #444444;
+    font-size: 21px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 32px;
+    padding-right: 0px;
+  }
+  
+  @media (min-width: 1200px) {
+    .home-bg-p {
+      padding-right: 110px;
+    }
+  }
+  
 
 .carousel-caption{
     transform: translateY(10%);
     bottom: 0;
-    top: 20%;
+    top: 10%;
     text-align: left;
 }
 
@@ -220,7 +264,7 @@ table {
   }
 
   .carousel-item {
-      max-height: 449.6px !important;
+      height: 85vh;
   }
 
   .bg-grad {
@@ -614,11 +658,23 @@ table {
   font-weight: 600;
 }
 
-.about-container {
+.service-container {
   /*background-color: #005384;*/
   /* background-color: #04B431; */
-  background-color: #e8ae68;
-  color: white;
+  background-color: #fff;
+  padding-bottom: 15vh;
+
+}
+.whyus-container {
+  /*background-color: #005384;*/
+  /* background-color: #04B431; */
+  background-color: #F0F8FF;
+}
+
+.about-container {
+  padding-top: 10vh;
+  padding-bottom: 15vh;
+  color: black;
   font-weight: 300;
 }
 
@@ -767,29 +823,15 @@ z-index: 1;
 /* service */
 
 .service .thumbnail{
-    border: none;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(168, 157, 157, 0.31);
-            box-shadow: 0px 0px 5px 0px rgba(168, 157, 157, 0.31);
+  border: 1px solid rgba(223, 223, 223, 0.7);
     padding: 35px 20px;
     margin-bottom: 30px;
+    border-radius: 15px;
+    transition: all 0.4s ease-in-out;
+    background-color: white;
   }
-  
 
-.service .thumbnail:hover{
-      -webkit-box-shadow: 2px 5.66px 20px 0px rgba(136, 136, 136, 0.2);
-              box-shadow: 2px 5.66px 20px 0px rgba(136, 136, 136, 0.2);
-    }
 
-.service .thumbnail:hover .service__title{
-        color: #00aafe;
-      }
-
-.service .thumbnail:hover .material-icons{
-        background-color: rgb( 0, 170, 254 );
-        -webkit-box-shadow: 0px 0px 15px 0px rgb( 0, 170, 254 );
-                box-shadow: 0px 0px 15px 0px rgb( 0, 170, 254 );
-        color: #fff;
-      }
 
 .service__title{
     font-size: 22px;
@@ -828,7 +870,8 @@ z-index: 1;
   /* page-section */
 
   .page-section{
-    padding-top: 100px;
+    padding-top: 10vh;
+    padding-bottom: 15vh;
     font-family: 'Open Sans',Arial,sans-serif;
     letter-spacing: 0.011111111111111112rem;
     line-height: 1.7777777777778;
@@ -890,6 +933,7 @@ z-index: 1;
         font-weight: bold;
         color: #fff;
         margin-top: 70px;
+        padding-top: 10vh;
         font-family: 'Open Sans',Arial,sans-serif !important;
       }
   
@@ -970,10 +1014,13 @@ z-index: 1;
     -webkit-clip-path: polygon(0 32%, 100% 10%, 100% 100%, 0% 100%);
             clip-path: polygon(0 32%, 100% 10%, 100% 100%, 0% 100%);
    /* background: url("../img/contact-us-background.png") no-repeat; */
-    background: url("../img/den-bg.jpg") no-repeat;
-    background-position: top;
-    height: 430px;
+    background: url("../img/den-bg3.jpg") no-repeat;
+    height: 80vh;
     position: relative;
+     /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
   }
 
@@ -994,6 +1041,11 @@ z-index: 1;
       .contact--bg{
         -webkit-clip-path: polygon(0 32%, 100% 28%, 100% 100%, 0% 100%);
                 clip-path: polygon(0 32%, 100% 28%, 100% 100%, 0% 100%);
+                background: url("../img/den-bg3.jpg") no-repeat;
+                background-position: bottom;
+                height: 430px;
+                position: relative;
+                background-size: 100%;
       }
     }
 
@@ -1014,7 +1066,7 @@ z-index: 1;
 
     .button{
         padding: 9px 40px;
-        border-radius: 30px;
+        border-radius: 10px;
         font-size: 16px;
         color: #fff;
         border: 1px solid #fff;
@@ -1055,8 +1107,12 @@ z-index: 1;
             -webkit-clip-path: polygon(0 0, 100% 0, 100% 68%, 0 100%);
                     clip-path: polygon(0 0, 100% 0, 100% 68%, 0 100%);
             background: url("../img/dentalico.jpg") no-repeat;
-            height: 440px;
+            height: 90vh;
             position: relative;
+             /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: top;
+            background-repeat: no-repeat;
             background-size: cover;
           }
 
@@ -1166,3 +1222,38 @@ z-index: 1;
       color: #00aafe;
       border: 2px solid #fff;
     }
+
+
+    .content-area-heading {
+      padding-bottom: 45px;
+    }
+    
+    @media (min-width: 768px) {
+      .content-area-heading {
+        padding-bottom: 45px;
+      }
+    }
+    
+    @media (min-width: 992px) {
+      .content-area-heading {
+        padding-bottom: 45px;
+      }
+    }
+
+    .content-area {
+      padding-top: 50px;
+    }
+    
+    @media (min-width: 768px) {
+      .content-area {
+        padding-top: 70px;
+      }
+    }
+    
+    @media (min-width: 992px) {
+      .content-area {
+        padding-top: 135px;
+      }
+    }
+    
+    

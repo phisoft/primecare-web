@@ -281,11 +281,14 @@ table {
 }
 
 
-.home-bg-title{
-    font-size:28px;
+.home-bg-title {
+    color: #213053;
+    font-size: 34px;
     font-weight: 600;
-    color: #004283;
-}
+    font-style: normal;
+    line-height: 40px;
+    margin-top: 0;
+  }
 
 .home-bg-p {
     font-family: 'Open Sans',Arial,sans-serif;
@@ -298,8 +301,8 @@ table {
 .carousel-caption{
     transform: translateY(10%);
     bottom: 0;
-    top: 47%;
-    text-align: left;
+    top: 35%;
+    text-align: center;
     line-height: 0.9;
 }
 
@@ -697,12 +700,7 @@ table {
   font-size: 20pt;
 }
 
-.about-container {
-  /*background-color: #005384;*/
-  background-color: #04B431;
-  color: white;
-  font-weight: 300;
-}
+
 
 .about-info {
   padding: 1em;
