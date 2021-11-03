@@ -829,6 +829,7 @@ z-index: 1;
     border-radius: 15px;
     transition: all 0.4s ease-in-out;
     background-color: white;
+    height: 90%;
   }
 
 
@@ -1120,7 +1121,7 @@ z-index: 1;
             -webkit-clip-path: polygon(0 0, 100% 0, 100% 68%, 0 100%);
                     clip-path: polygon(0 0, 100% 0, 100% 68%, 0 100%);
             background: url("../img/dentalico.jpg") no-repeat;
-            height: 200px;
+            height: 60vh;
             position: relative;
             background-size: cover;
           }
