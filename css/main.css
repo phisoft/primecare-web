@@ -661,12 +661,19 @@ table {
 .service-container {
   /*background-color: #005384;*/
   /* background-color: #04B431; */
+  background-color: #fff;
+  padding-bottom: 15vh;
+
+}
+.whyus-container {
+  /*background-color: #005384;*/
+  /* background-color: #04B431; */
   background-color: #F0F8FF;
 }
 
 .about-container {
-  /*background-color: #005384;*/
-  /* background-color: #04B431; */
+  padding-top: 10vh;
+  padding-bottom: 15vh;
   color: black;
   font-weight: 300;
 }
@@ -863,7 +870,8 @@ z-index: 1;
   /* page-section */
 
   .page-section{
-    padding-top: 25vh;
+    padding-top: 10vh;
+    padding-bottom: 15vh;
     font-family: 'Open Sans',Arial,sans-serif;
     letter-spacing: 0.011111111111111112rem;
     line-height: 1.7777777777778;
@@ -925,6 +933,7 @@ z-index: 1;
         font-weight: bold;
         color: #fff;
         margin-top: 70px;
+        padding-top: 10vh;
         font-family: 'Open Sans',Arial,sans-serif !important;
       }
   
@@ -1057,7 +1066,7 @@ z-index: 1;
 
     .button{
         padding: 9px 40px;
-        border-radius: 30px;
+        border-radius: 10px;
         font-size: 16px;
         color: #fff;
         border: 1px solid #fff;
@@ -1215,4 +1224,36 @@ z-index: 1;
     }
 
 
+    .content-area-heading {
+      padding-bottom: 45px;
+    }
+    
+    @media (min-width: 768px) {
+      .content-area-heading {
+        padding-bottom: 45px;
+      }
+    }
+    
+    @media (min-width: 992px) {
+      .content-area-heading {
+        padding-bottom: 45px;
+      }
+    }
+
+    .content-area {
+      padding-top: 50px;
+    }
+    
+    @media (min-width: 768px) {
+      .content-area {
+        padding-top: 70px;
+      }
+    }
+    
+    @media (min-width: 992px) {
+      .content-area {
+        padding-top: 135px;
+      }
+    }
+    
     
