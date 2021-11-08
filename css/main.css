@@ -1,7 +1,11 @@
+@font-face{font-family:'Gotham';src:url(fonts/GothamHTF-Book.eot);src:url(fonts/GothamHTF-Book.eot?#iefix) format("embedded-opentype"),url(fonts/GothamHTF-Book.woff) format("woff"),url(fonts/GothamHTF-Book.ttf) format("truetype");font-weight:400;font-style:normal}
+@font-face{font-family:'Gotham Condensed';src:url(fonts/GothamHTF-BoldCondensed.eot);src:url(fonts/GothamHTF-BoldCondensed.eot?#iefix) format("embedded-opentype"),url(fonts/GothamHTF-BoldCondensed.woff) format("woff"),url(fonts/GothamHTF-BoldCondensed.ttf) format("truetype");font-weight:700;font-style:normal}
+@font-face{font-family:'Gotham';src:url(fonts/GothamHTF-Medium.eot);src:url(fonts/GothamHTF-Medium.eot?#iefix) format("embedded-opentype"),url(fonts/GothamHTF-Medium.woff) format("woff"),url(fonts/GothamHTF-Medium.ttf) format("truetype");font-weight:500;font-style:normal}
+
 body {
     min-height: 100vh;
     padding-top: 77px;
-    font-family: 'Open Sans',Arial,sans-serif !important;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     font-style: normal;
     letter-spacing: 0.011111111111111112rem;
     line-height: 1.66667;
@@ -188,6 +192,7 @@ table {
 .home-bg-title {
     color: #213053;
     font-size: 34px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     font-weight: 600;
     font-style: normal;
     letter-spacing: -1px;
@@ -307,7 +312,7 @@ table {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    font-family: 'Open Sans',Arial,sans-serif;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   
   /* Change color of dropdown links on hover */
@@ -368,7 +373,7 @@ table {
 .philosophy-text{
     font-size:14px;
     color: #444;
-    font-family: 'Open Sans',Arial,sans-serif;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* branch container */
@@ -401,7 +406,7 @@ table {
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     color: #2E9AFE !important;
-    font-family:'Open Sans',Arial,sans-serif;
+    font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .branch-img {
@@ -417,8 +422,10 @@ table {
 
 /* about us container */
 .site-title{
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     color: #0B2161;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .site-p{
@@ -461,18 +468,18 @@ table {
   font-weight: 100;
   font-size: 19px;
   
-  font-family: 'Open Sans',Arial,sans-serif;
+  font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .treatment-p{
   font-size:16px;
   font-weight: 200;
   
-  font-family: 'Open Sans',Arial,sans-serif;
+  font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .branches-info {
-  font-family: 'Open Sans',Arial,sans-serif;
+  font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   color: #666;
   margin-bottom: 40px;
@@ -720,7 +727,7 @@ z-index: 1;
 
     .home-bg-p{
         font-size:12px;
-        font-family:'Open Sans',Arial,sans-serif;
+        font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif;
     }
 
     .caption2{
@@ -835,6 +842,7 @@ z-index: 1;
 
 
 .service__title{
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     font-size: 22px;
     font-weight: bold;
     color: #4f4f4f;
@@ -873,7 +881,7 @@ z-index: 1;
   .page-section{
     padding-top: 10vh;
     padding-bottom: 15vh;
-    font-family: 'Open Sans',Arial,sans-serif;
+    font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 0.011111111111111112rem;
     line-height: 1.7777777777778;
     /* padding-bottom: 30px; */
@@ -881,7 +889,7 @@ z-index: 1;
 
   .page-section2{
     padding : 0px;
-    font-family: 'Open Sans',Arial,sans-serif;
+    font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 0.011111111111111112rem;
     line-height: 1.7777777777778;
   }
@@ -926,7 +934,7 @@ z-index: 1;
       font-weight: bold;
       color: #004283;
       margin-bottom: 10px;
-      font-family: 'Open Sans',Arial,sans-serif !important;
+      font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif !important;
     }
   
   .page-section__title--white{
@@ -935,7 +943,7 @@ z-index: 1;
         color: #fff;
         margin-top: 70px;
         padding-top: 10vh;
-        font-family: 'Open Sans',Arial,sans-serif !important;
+        font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif !important;
       }
   
   @media screen and (max-width: 670px) {
@@ -947,7 +955,7 @@ z-index: 1;
   
   .page-section__title--white--less-margin{
           margin-top: 40px;
-          font-family: 'Open Sans',Arial,sans-serif !important;
+          font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif !important;
         }
   
   .page-section__paragraph{
@@ -974,7 +982,7 @@ z-index: 1;
   .page-section__paragraph--white{
         font-size: 18px;
         color: #f1f1f1;
-        font-family: 'Open Sans',Arial,sans-serif !important;
+        font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif !important;
         margin-bottom: 50px;
       }
 
@@ -1074,7 +1082,7 @@ z-index: 1;
         display: inline-block;
         background-color: transparent;
         position: relative;
-        font-family: 'Open Sans',Arial,sans-serif !important;
+        font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif !important;
       }
       
       .button:after{
