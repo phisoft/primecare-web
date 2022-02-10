@@ -1,11 +1,14 @@
 @font-face{font-family:'Gotham';src:url(fonts/GothamHTF-Book.eot);src:url(fonts/GothamHTF-Book.eot?#iefix) format("embedded-opentype"),url(fonts/GothamHTF-Book.woff) format("woff"),url(fonts/GothamHTF-Book.ttf) format("truetype");font-weight:400;font-style:normal}
 @font-face{font-family:'Gotham Condensed';src:url(fonts/GothamHTF-BoldCondensed.eot);src:url(fonts/GothamHTF-BoldCondensed.eot?#iefix) format("embedded-opentype"),url(fonts/GothamHTF-BoldCondensed.woff) format("woff"),url(fonts/GothamHTF-BoldCondensed.ttf) format("truetype");font-weight:700;font-style:normal}
 @font-face{font-family:'Gotham';src:url(fonts/GothamHTF-Medium.eot);src:url(fonts/GothamHTF-Medium.eot?#iefix) format("embedded-opentype"),url(fonts/GothamHTF-Medium.woff) format("woff"),url(fonts/GothamHTF-Medium.ttf) format("truetype");font-weight:500;font-style:normal}
+@font-face {font-family: 'Sen'; src: url(fonts/Sen-Regular.ttf); font-weight: 50;}
+@font-face {font-family: 'Sen Bold'; src: url(fonts/Sen-Bold.ttf);}
+
 
 body {
     min-height: 100vh;
     padding-top: 77px;
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-family: Sen, sans-serif;
     font-style: normal;
     letter-spacing: 0.011111111111111112rem;
     line-height: 1.66667;
@@ -29,10 +32,12 @@ body {
   
 .home-bg1{
     height:100vh;
-    background-size: auto 100%;
+    /* background-size: auto 100%; */
+    background-size: cover;
+
     background-repeat: no-repeat;
     background-image: url(../img/PrimeCare/ban3.jpg);
-    background-position: right center;
+    background-position: center;
 }
 
 .home-bg2{
@@ -186,60 +191,95 @@ table {
  
 }
 
-
 .home-bg-title {
-    color: #213053;
-    font-size: 34px;
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    font-weight: 600;
+    color: #ffffff;
+    font-size: 38px;
+    font-family: Sen Bold, sans-serif;
     font-style: normal;
-    letter-spacing: -1px;
+    letter-spacing: normal;
     line-height: 40px;
-    margin-bottom: 35px;
-    margin-top: 0;
+    padding-left: 50px;
+    margin-bottom: 0;
+    white-space: nowrap;
   }
   
   @media (min-width: 576px) {
     .home-bg-title {
-      font-size: 40px;
-      line-height: 46px;
+      font-size: 38px;
+      margin-top: -30px;   
+      /* font-size: 40px; */
     }
   }
   
   @media (min-width: 768px) {
     .home-bg-title {
-      font-size: 48px;
-      line-height: 54px;
+      font-size: 38px;
+      margin-top: -20px;
+      /* font-size: 48px; */
     }
   }
   
   @media (min-width: 992px) {
     .home-bg-title {
-      font-size: 70px;
-      line-height: 76px;
+      font-size: 40px;
+      margin-top: -30px;
+      /* font-size: 70px; */
+      /* line-height: -20px; */
     }
   }
   
   @media (min-width: 1200px) {
     .home-bg-title {
-      font-size: 80px;
-      line-height: 86px;
+      font-size: 45px;
+      margin-top: -30px;
+      /* font-size: 80px; */
+      /* line-height: 0px; */
     }
   }
   
   .home-bg-p {
-    opacity: 0.7;
-    color: #444444;
-    font-size: 21px;
-    font-weight: 400;
+    /* opacity: 0.7; */
+    font-family: Sen, sans-serif;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 50;
     font-style: normal;
     letter-spacing: normal;
     line-height: 32px;
-    padding-right: 0px;
+    padding-left: 50px;
+    margin-top: 280px;
+
+
+  }
+
+
+  @media (min-width: 576px) {
+    .home-bg-p {
+      font-size: 22px;
+      /* font-size: 48px; */
+      line-height: 54px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .home-bg-p {
+      font-size: 22px;
+      /* font-size: 48px; */
+      line-height: 54px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .home-bg-p {
+      font-size: 25px;
+      /* font-size: 70px; */
+      line-height: 76px;
+    }
   }
   
   @media (min-width: 1200px) {
     .home-bg-p {
+      font-size: 30px;
       padding-right: 110px;
     }
   }
@@ -253,7 +293,7 @@ table {
 }
 
 .carousel .carousel-arrow { visibility: hidden; }
-.carousel:hover .carousel-arrow { visibility: visible; }
+.carousel:hover .carousel-arrow { visibility: v xble; }
 
 .carousel-item:after {
     content:"";
@@ -267,7 +307,7 @@ table {
   }
 
   .carousel-item {
-      height: 85vh;
+      height: 100vh;
   }
 
   .bg-grad {
@@ -310,7 +350,8 @@ table {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: Sen, sans-serif;
   }
   
   /* Change color of dropdown links on hover */
@@ -371,7 +412,8 @@ table {
 .philosophy-text{
     font-size:14px;
     color: #444;
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: Sen, sans-serif;
 }
 
 /* branch container */
@@ -404,7 +446,7 @@ table {
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     color: #2E9AFE !important;
-    font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Sen, sans-serif;
 }
 
 .branch-img {
@@ -420,7 +462,8 @@ table {
 
 /* about us container */
 .site-title{
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    /* font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif !important; */
+    font-family: Sen Bold, sans-serif;
     color: #0B2161;
     font-size: 30px;
     font-weight: bold;
@@ -464,19 +507,17 @@ table {
 .treatment-title{
   font-weight: 100;
   font-size: 19px;
-  
-  font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Sen, sans-serif;
 }
 
 .treatment-p{
   font-size:16px;
   font-weight: 200;
-  
-  font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Sen Bold, sans-serif;
 }
 
 .branches-info {
-  font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Sen, sans-serif;
   font-size: 18px;
   color: #666;
   margin-bottom: 40px;
@@ -719,12 +760,12 @@ z-index: 1;
     }
 
     .home-bg-title{
-        font-size: 15px;
+        font-size: 35px;
+        margin-top: -25px;   
     }
 
     .home-bg-p{
-        font-size:12px;
-        font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 20px;
     }
 
     .caption2{
@@ -839,7 +880,7 @@ z-index: 1;
 
 
 .service__title{
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-family: Sen Bold, sans-serif;
     font-size: 22px;
     font-weight: bold;
     color: #4f4f4f;
@@ -878,7 +919,7 @@ z-index: 1;
   .page-section{
     padding-top: 10vh;
     padding-bottom: 15vh;
-    font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Sen, sans-serif;
     letter-spacing: 0.011111111111111112rem;
     line-height: 1.7777777777778;
     /* padding-bottom: 30px; */
@@ -886,7 +927,7 @@ z-index: 1;
 
   .page-section2{
     padding : 0px;
-    font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Sen, sans-serif;
     letter-spacing: 0.011111111111111112rem;
     line-height: 1.7777777777778;
   }
@@ -931,7 +972,7 @@ z-index: 1;
       font-weight: bold;
       color: #004283;
       margin-bottom: 10px;
-      font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif !important;
+      font-family: Sen Bold, sans-serif;
     }
   
   .page-section__title--white{
@@ -940,7 +981,7 @@ z-index: 1;
         color: #fff;
         margin-top: 70px;
         padding-top: 10vh;
-        font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif !important;
+        font-family: Sen Bold, sans-serif;
       }
   
   @media screen and (max-width: 670px) {
@@ -952,7 +993,7 @@ z-index: 1;
   
   .page-section__title--white--less-margin{
           margin-top: 40px;
-          font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif !important;
+          font-family: Sen, sans-serif;
         }
   
   .page-section__paragraph{
@@ -979,7 +1020,7 @@ z-index: 1;
   .page-section__paragraph--white{
         font-size: 18px;
         color: #f1f1f1;
-        font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif !important;
+        font-family: Sen, sans-serif;
         margin-bottom: 50px;
       }
 
@@ -1079,7 +1120,7 @@ z-index: 1;
         display: inline-block;
         background-color: transparent;
         position: relative;
-        font-family: Gotham,"Helvetica Neue", Helvetica, Arial, sans-serif !important;
+        font-family: Sen, sans-serif;
       }
       
       .button:after{

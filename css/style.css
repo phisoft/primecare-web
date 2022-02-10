@@ -272,6 +272,7 @@
 }
 
 .menu-block.active .nav-link-item {
+  font-family: Sen Bold, sans-serif;
   color: #000 !important;
 }
 
@@ -323,6 +324,7 @@ li.sub-menu--item.nav-item-has-children i {
 }
 
 .reveal-header .nav-link-item {
+  font-family: Sen Bold, sans-serif;
   color: #1D263A !important;
 }
 
@@ -339,6 +341,7 @@ li.sub-menu--item.nav-item-has-children i {
 }
 
 .sticky-menu-bg.reveal-header .nav-link-item {
+  font-family: Sen Bold, sans-serif;
   color: #fff !important;
 }
 
@@ -364,9 +367,11 @@ li.sub-menu--item.nav-item-has-children i {
 
 @media (min-width: 992px) {
   .top-contact-menu-wraper .nav-link-item {
+    font-family: Sen Bold, sans-serif;
     color: #fff !important;
   }
   .top-contact-menu-wraper .site-menu-main .nav-link-item {
+    font-family: Sen Bold, sans-serif;
     padding-top: 19px !important;
     padding-bottom: 19px !important;
   }
@@ -421,6 +426,7 @@ display: none;
 }
 
 .site-menu-main .nav-link-item {
+  font-family: Sen Bold, sans-serif;
   color: #213053;
   font-size: 15px;
   font-weight: 600;
@@ -431,6 +437,7 @@ display: none;
 
 @media (min-width: 992px) {
   .site-menu-main .nav-link-item {
+    font-family: Sen Bold, sans-serif;
     padding-top: 35px !important;
     padding-bottom: 33px !important;
     padding-left: 20px !important;
@@ -662,12 +669,14 @@ border-radius: 5px;
 
 @media (min-width: 480px) {
 .header-btns {
+  font-family: Sen Bold, sans-serif;
   margin-right: 15px;
 }
 }
 
 @media (min-width: 992px) {
 .header-btns {
+  font-family: Sen Bold, sans-serif;
   margin-right: 0;
 }
 }
