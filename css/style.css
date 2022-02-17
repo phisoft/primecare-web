@@ -865,9 +865,3 @@ transition: all .4s ease-in-out;
 .sidebar a:hover {
   color: #004283;
 }
-
-@media (min-width: 992px) {
-  .content-3-l9-image {
-    margin-bottom: 0;
-  }
-}
