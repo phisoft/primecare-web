@@ -281,23 +281,23 @@ table {
     max-width: 61%;
 }
 
-
 .home-bg-title {
     color: #ffffff;
-    font-size: 27px;
+    font-size: 24px;
     font-weight: 600;
     font-style: normal;
     line-height: 40px;
     margin-top: -10px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 0px;
 
   }
 
 .home-bg-p {
     font-family: Sen, sans-serif;
     /* font-family: 'Open Sans',Arial,sans-serif; */
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 400;
     color: rgb(255, 255, 255);
     line-height: 1.2;
