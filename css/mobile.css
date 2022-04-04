@@ -289,7 +289,7 @@
         max-width: 61%;
     }
 
-    .home-bg-title {
+    .home-bg-title2 {
         /* text-align: center; */
         color: #ffffff;
         font-size: 24px;
@@ -307,13 +307,11 @@
         align-items: center;
         align-content: center;
         text-align: center;
+        text-align: center;
+        white-space: nowrap;
     }
 
-    .center-title-padding {
-        padding: 0 0 0 0;
-    }
-
-    .home-bg-p {
+     .home-bg-p {
         text-align: center;
         font-family: Sen, sans-serif;
         font-size: 24px;
@@ -327,6 +325,30 @@
         padding-left: 0px;
         white-space: nowrap;
     }
+
+    .home-bg-title {
+        /* text-align: center; */
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 600;
+        font-style: normal;
+        line-height: 40px;
+        margin-top: -10px;
+        margin-left: -25px;
+        margin-right: -25px;
+        padding-left: 0px;
+        padding-right: auto; 
+        left: 20px;
+        right: 20px;
+        white-space: nowrap;
+    
+      }
+
+    .center-title-padding {
+        padding: 0 0 0 0;
+    }
+
+   
 
     .carousel-caption {
         transform: translateY(10%);
